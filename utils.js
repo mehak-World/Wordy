@@ -5,7 +5,16 @@ const message = document.getElementById("message");
 
 
 export function generateRandomWord() {
-    const words = ["heart", "plant", "stand", "chair", "ghost", "crate", "brown", "light", "drink", "fruit"];
+    const words = [
+        "heart", "plant", "stand", "chair", "ghost", "crate", "brown", "light", 
+        "drink", "fruit", "storm", "dance", "dream", "flame", "grape", "shine", 
+        "tiger", "blaze", "sugar", "stone", "track", "sound", "paper", "apple", 
+        "water", "cloud", "sweet", "brave", "shine", "piano", "laser", "grind", 
+        "sharp", "smart", "craze", "blank", "force", "crisp", "night", "sleep", 
+        "train", "beach", "frost", "flock", "giant", "speed", "level", "curve", 
+        "pitch", "blade", "curve", "frame", "press", "chase", "flash"
+      ];
+      
     const randomIndex = Math.floor(Math.random() * words.length);
     return words[randomIndex];
 }
@@ -26,7 +35,7 @@ export function checkWord(i, word) {
         if (word.includes(text) && index == position) {
             btn.style.backgroundColor = "lightgreen";
         } else if (word.includes(text)) {
-            btn.style.backgroundColor = "grey";
+            btn.style.backgroundColor = "orange";
         } else {
             btn.style.backgroundColor = "red";
         }

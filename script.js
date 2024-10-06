@@ -87,7 +87,7 @@ function checkWord(i, word){
             btn.style.backgroundColor = "lightgreen";
         }
         else if(word.includes(text)){
-            btn.style.backgroundColor = "grey";
+            btn.style.backgroundColor = "yellow";
         }
         else{
             btn.style.backgroundColor = "red";
