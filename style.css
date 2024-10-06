@@ -1,0 +1,43 @@
+body{
+    background: rgb(44, 43, 43);
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  color: white; 
+}
+
+.container{
+    text-align: center;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.container button{
+   border: none;
+   border-radius: 4px;
+}
+
+#play{
+   padding: 10px;
+   margin-top: 15px; 
+   background-color: rgb(247, 126, 5);
+   font-size: 20px;
+}
+
+#message{
+    width: 60%;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgb(250, 130, 26);
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+}
