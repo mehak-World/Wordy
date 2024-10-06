@@ -121,6 +121,7 @@ function generatePlayBtn(){
 }
 
 function playAction(){
+    window.location.reload();
         console.log("play btn triggered");
         gameOver = false;
         const btns = document.querySelectorAll("button");

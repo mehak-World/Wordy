@@ -61,6 +61,7 @@ export function generatePlayBtn(i, j) {
 }
 
 export function playAction(i, j) {
+    window.location.reload();
     console.log("play btn triggered");
     gameOver = false;
     const btns = document.querySelectorAll("button");
